@@ -9,11 +9,11 @@ int ar[] = new int[5];
 //arr[3] = 1;
 //arr[4] = 3;
 for( i=0; i<arr.length; i++) {
-ar[] = arr[i];
+//ar[] = arr[i];
 //}
 //for( j=0; j<ar.length; j++) {
 //ar[j]=arr[i];
-System.out.println(ar);
+System.out.println(arr[i]);
 }
 
 }

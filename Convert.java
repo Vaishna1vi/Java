@@ -2,6 +2,7 @@ public class Convert {
 public static void main(String args[]) {
 java.util.Scanner sc=new java.util.Scanner(System.in);
 String cname=sc.nextLine();
+sc.close();
 String[] digits={"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
 String[] words= new String[cname.length()];
 int i=0;
