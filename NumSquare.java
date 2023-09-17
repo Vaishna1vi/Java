@@ -25,5 +25,6 @@ for(j=1; j<=n; j++) {
 }
 System.out.println(' ');
         }
+        sc.close();
     }
 }
