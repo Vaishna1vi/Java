@@ -9,7 +9,7 @@ public class HollowRightTriangle {
                 System.out.print(" ");
             }
             for (j = 0; j <= i; j++) {
-                if (j == 0 || j == i || i == n-1) {
+                if (j == 0 || j == i || i == n - 1) {
                     System.out.print("* ");
                 } else {
                     System.out.print("  ");
@@ -17,6 +17,6 @@ public class HollowRightTriangle {
             }
             System.out.println(" ");
         }
-
+        s.close();
     }
 }
