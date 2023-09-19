@@ -13,17 +13,20 @@ public class EquiTriangle {
             for (j = 0; j <= i; j++) {
                 System.out.print("* ");
             }
-            for (j = 0; j <= 2 * (n + i); j++) {
-                // if( j>i-1) {
-                if (j < i) {
-                    // System.out.print(" ");
-                    System.out.print("* ");
+            // for (j = 0; j <= 2 * (n + i); j++) {
+            //     // if( j>i-1) {
+            //     if (j < i) {
+            //         // System.out.print(" ");
+            //         System.out.print("* ");
 
-                } else {
-                    // System.out.print("* ");
-                    System.out.print(" ");
+            //     } else {
+            //         // System.out.print("* ");
+            //         System.out.print(" ");
 
-                }
+            //     }
+            // }
+            for(j=0; j<i; j++) {
+                System.out.print("* ");
             }
             System.out.println(" ");
         }
