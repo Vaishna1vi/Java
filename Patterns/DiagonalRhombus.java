@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HollowRhombus {
+public class DiagonalRhombus {
     public static void main(String[] args) {
         int i, j;
         Scanner sc = new Scanner(System.in);
@@ -11,14 +11,20 @@ public class HollowRhombus {
                 System.out.print(" ");
             }
             for (j = 0; j <= i; j++) {
-                if (j == 0) {
+                // if(j==0||j==i) [for vertical diagonal]
+                // if (j == 0 || i == n - 1) [for horizontal diagonal]
+                if (j == 0 || j == i || i == n - 1) // [for both diagonal]
+                {
                     System.out.print("* ");
                 } else {
                     System.out.print("  ");
                 }
             }
             for (j = 0; j < i; j++) {
-                if (j == i - 1) {
+                // if(j==i-1) [for vertical diagonal]
+                // if (j == i - 1 || i == n - 1) [for horizontal diagonal]
+                if (j == i - 1 || i == n - 1) // [for both diagonal]
+                {
                     System.out.print("* ");
                 } else {
                     System.out.print("  ");
@@ -32,14 +38,20 @@ public class HollowRhombus {
                     System.out.print(" ");
                 }
                 for (j = 1; j <= i; j++) {
-                    if (j == 1) {
+                    // if(j==1||j==i) [for vertical diagonal]
+                    // if (j == 1) [for horizontal diagonal]
+                    if (j == 1 || j == i) // [for both diagonal]
+                    {
                         System.out.print(" *");
                     } else {
                         System.out.print("  ");
                     }
                 }
                 for (j = 1; j < i; j++) {
-                    if (j == i - 1) {
+                    // if(j==i-1) [for vertical diagonal]
+                    // if (j == i - 1) [for horizontal diagonal]
+                    if (j == i - 1) // [for both diagonal]
+                    {
                         System.out.print(" *");
                     } else {
                         System.out.print("  ");
@@ -48,5 +60,6 @@ public class HollowRhombus {
                 System.out.println(" ");
             }
         }
+        sc.close();
     }
 }
