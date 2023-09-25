@@ -32,7 +32,7 @@ public class MissingElementArray {
             if (arr[i] == 0) {
                 System.out.println("Array must contain number from 1. It cannot contain 0.");
                 System.out.println("Please insert again all proper values.");
-                break;
+            System.exit(i);
             }
         }
         System.out.print("Array is: ");
