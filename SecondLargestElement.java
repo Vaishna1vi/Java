@@ -1,3 +1,19 @@
+/* PROBLEM OF GFG:- 3. SECOND LARGEST ELEMENT IN ARRAY
+ *
+ * STATEMENT:- Given an array of size n, print second largest distinct element from an array.
+ * 
+ * EXAMPLE:-
+ * 
+ * 1. Input:
+ *     N = 6
+ *     Arr[] = {12, 35, 1, 10, 34, 1}
+ *   
+ *    Output: 34
+ *    
+ *    Explanation: The largest element of the array is 35 and second largest element is 34.
+ * 
+ */
+
 import java.util.Arrays;
 import java.util.Scanner;
 
