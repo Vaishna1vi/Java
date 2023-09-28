@@ -10,6 +10,7 @@ public class javaPattern {
         //         }
         //     }
         //     System.out.println(" ");
+    // }
 
         System.out.println("    J       A     V       V     A");
         System.out.println("    J      A A     V     V     A A");
@@ -17,6 +18,5 @@ public class javaPattern {
         System.out.println("J   J    A A A A     V V     A A A A");
         System.out.println(" J J    A       A     V     A       A");
 
-        }
     }
 }
