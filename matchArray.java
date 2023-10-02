@@ -28,6 +28,9 @@ public class matchArray {
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i] + " ");
         }
+
+        matchArray m = new matchArray();
+        System.out.println(m.equalArray(a, b, size));
         sc.close();
     }
 
