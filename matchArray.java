@@ -28,6 +28,7 @@ public class matchArray {
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i] + " ");
         }
+        System.out.println();
 
         matchArray m = new matchArray();
         System.out.println(m.equalArray(a, b, size));
@@ -41,6 +42,9 @@ public class matchArray {
         boolean ans = false;
         if (Arrays.equals(a, b)) {
             ans = true;
+            System.out.println("Both array elements are equal.");
+        } else {
+            System.out.println("Both array elements are not equal.");
         }
         return ans;
     }
