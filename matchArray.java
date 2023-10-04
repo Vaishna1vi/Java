@@ -39,12 +39,13 @@ public class matchArray {
         Arrays.sort(a);
         Arrays.sort(b);
 
-        boolean ans = false;
+        System.out.println("Both array elements are equal? ");
+        boolean ans;
+
         if (Arrays.equals(a, b)) {
             ans = true;
-            System.out.println("Both array elements are equal.");
         } else {
-            System.out.println("Both array elements are not equal.");
+            ans = false;
         }
         return ans;
     }
