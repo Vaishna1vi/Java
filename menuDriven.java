@@ -36,6 +36,16 @@ public class menuDriven {
 
         // USE OF DO-WHILE LOOP
 
+        // WE USE DO-WHILE LOOP HERE INSTEAD OF WHILE LOOP BECAUSE WE HAVE TO TAKE MARKS
+        // FROM USER ATLEAST 1 TIME AFTER THAT IT DEPENDS ON USER WHEATER HE/SHE WANT TO
+        // CONTINUE THE PROCESS OR NOT.
+
+        // DIFFERENCE B/W WHILE AND DO-WHILE LOOP:-
+
+        // In while it check condition 1st then perform task due to which we have to
+        // repeat code to take marks as input and in Do-while it perform task 1st then
+        // check the further conditions.
+
         int n;
 
         do {
