@@ -9,7 +9,16 @@ public class findPrimeNum {
         if(start>end) {
             System.out.println("Please enter the 1st input smaller than 2nd.");
         } else {
-            
+            // for(int i=start; i<=end; i++) {
+                
+            // }
+            int i=start;
+            while (end>=i) {
+                if (condition) {
+                    
+                }
+                i++;
+            }
         }
         s.close();
     }
