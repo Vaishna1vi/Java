@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class functionAverage {
     public static void main(String[] args) {
-        calculateAverage(0,0);
+        calculateAverage(0, 0);
     }
-    
+
     public static void calculateAverage(int size, int inputs) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size to find average: ");
@@ -17,7 +17,7 @@ public class functionAverage {
         }
         int rem = sum % size;
         int quiotent = sum / size;
-        System.out.println("The average of three number is: " );
+        System.out.println("The average of three number is: ");
         System.out.println(quiotent + "." + rem);
         sc.close();
         return;
