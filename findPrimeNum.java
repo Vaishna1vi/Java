@@ -13,18 +13,18 @@ public class findPrimeNum {
 
             // }
             System.out.print("The prime numbers in between the range: ");
-            int i = start;
-            while (end >= i) {
+            // int i = start;
+            while (end >= start) {
                 int count = 0;
-                for (int j = 1; j <= end; j++) {
-                    if (i % j != 0) {
+                for (int j = start; j <= end; j++) {
+                    if (start % j != 0) {
                         count++;
                     }
                 }
-                if (count != 1) {
-                    System.out.print(i + " ");
+                if (count != 0) {
+                    System.out.print(start + " ");
                 }
-                i++;
+                start++;
             }
         }
         s.close();

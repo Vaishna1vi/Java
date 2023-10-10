@@ -18,14 +18,20 @@ public class sortArray {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
-
-        int curr = 0;
+        System.out.println();
+        boolean sort = true;
         System.out.print("The sorted array is: ");
-        for (int i=0; i<size; i++) {
-            if (a[i] < curr) {
-                curr = a[i];
+        for (int i = 0; i < size - 1; i++) {
+            if (a[i] > a[i + 1]) {
+                sort = false;
+                if(sort){
+                    System.out.print(a[i + 1] + " ");
+                }
+                else {
+                    System.out.print(a[i] + " ");
+                }
             }
-            System.out.print(curr + " ");
+
         }
 
         s.close();
