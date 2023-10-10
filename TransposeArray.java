@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TransposeArray {
     public static void main(String[] args) {
-transpose();
+        transpose();
     }
 
     public static void transpose() {
