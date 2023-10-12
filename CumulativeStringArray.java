@@ -8,7 +8,7 @@ public class CumulativeStringArray {
         String ar[] = new String[size];
         System.out.println("Enter the strings in the array: ");
         for (int i = 0; i < ar.length; i++) {
-            ar[i] = s.nextLine();
+            ar[i] = s.next();
         }
         s.close();
         System.out.println("The array of string is: ");
@@ -17,7 +17,8 @@ public class CumulativeStringArray {
         }
         int stringLen = 0;
         for (int i = 0; i < ar.length; i++) {
-            stringLen += ar[i].length();
+            // stringLen += ar[i].length();
+            stringLen = stringLen+ar[i].length();
         }
         System.out.println("The cumulative length of the whole strings present in array is: " + stringLen);
     }
