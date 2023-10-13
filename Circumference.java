@@ -1,3 +1,4 @@
+/* Created a function of data type double which calculates the circumference of the circle where the radius is given by the user and it is called by the main function. */
 import java.util.Scanner;
 
 public class Circumference {
