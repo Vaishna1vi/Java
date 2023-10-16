@@ -1,3 +1,4 @@
+// Try to initialize array with different ways
 public class Array {
     public static void main(String a[]) {
         int i;
