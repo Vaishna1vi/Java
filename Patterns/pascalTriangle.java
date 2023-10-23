@@ -11,7 +11,7 @@ public class pascalTriangle {
             }
             int p=1;
             for (int j = 0; j <= i; j++) {
-                 p =(p*(n-i)/i+1);
+                 p =(p*(n-i)/(i+1));
                 System.out.print(p + " ");
             }
             System.out.println();
