@@ -20,19 +20,23 @@ public class maxMinArray {
         // array[i][j] = sc.nextInt();
         // }
         // }
+        for (int i = 0; i < size; i++) {
+            System.out.format("%2d", array[i]);
+        }
+        System.out.println();
         int max = Integer.MAX_VALUE;
         int min = Integer.MIN_VALUE;
         // int minValue = 0, maxValue = 0;
         for (int i = 0; i < size; i++) {
-            if (array[i] < min) {
+            if (array[i] > min) {
                 min = array[i];
             }
-            if (array[i] > max) {
+            if (array[i] < max) {
                 max = array[i];
             }
         }
-        System.out.println("The max value present in array is: " + max);
-        System.out.println("The min value present in array is: " + min);
+        System.out.println("The min value present in array is: " + max);
+        System.out.println("The max value present in array is: " + min);
         System.out.println();
         // for (int i = 0; i < array.length; i++) {
         // for (int j = 0; j < cols; j++) {
