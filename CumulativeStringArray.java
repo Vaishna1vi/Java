@@ -15,6 +15,7 @@ public class CumulativeStringArray {
         for (int i = 0; i < ar.length; i++) {
             System.out.println(ar[i]);
         }
+
         int stringLen = 0;
         for (int i = 0; i < ar.length; i++) {
             // stringLen += ar[i].length();
