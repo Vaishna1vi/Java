@@ -1,3 +1,5 @@
+// Program to find the username from the email id of the person.
+
 import java.util.Scanner;
 
 public class EmailToUsernameString {
