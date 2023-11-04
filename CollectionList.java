@@ -1,3 +1,5 @@
+// Example of list and array list in collections 
+
 import java.util.ArrayList;
 import java.util.List;
 
