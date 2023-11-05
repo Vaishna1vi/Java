@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 /**
  * DecimalToBinary
+ * It convert the decimal numbers into binary numbers.
  */
 public class DecimalToBinary {
 
