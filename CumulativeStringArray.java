@@ -1,3 +1,5 @@
+// In this program, we calculate the total length of the string from starting point to the ending point of the strings present in the array as a whole. 
+
 import java.util.Scanner;
 
 public class CumulativeStringArray {
