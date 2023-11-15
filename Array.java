@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Array {
     public static void main(String a[]) {
-        Scanner s = new Scanner();
+        Scanner s = new Scanner(System.in);
         System.out.println("Enter the number: ");
         int n = s.nextInt();
         int i;
@@ -23,5 +23,6 @@ public class Array {
         for (i = 0; i < arr.length; i++) {
             System.out.println(arr[i] + " ");
         }
+        s.close();
     }
 }
