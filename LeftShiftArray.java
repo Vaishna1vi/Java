@@ -15,4 +15,5 @@ public class LeftShiftArray {
         }
         s.close();
     }
+    
 }
