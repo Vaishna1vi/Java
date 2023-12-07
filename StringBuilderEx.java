@@ -17,7 +17,7 @@ public class StringBuilderEx {
             sb.insert(i, st.charAt(i));
         }
         System.out.println("The entered string is: " + sb);
-        for (int i = sb.length(); i > 0; i--) {
+        for (int i = sb.length()-1; i > 0; i--) {
             if (sb.charAt(i) == '.') {
                 int index = i;
                 sb.insert(sb.charAt(index), sb.charAt(i));

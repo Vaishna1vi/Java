@@ -1,3 +1,4 @@
+
 // Try to initialize array with different ways
 import java.util.Scanner;
 
@@ -8,7 +9,7 @@ public class Array {
             int n = s.nextInt();
             int i;
             int[] arr = new int[n];
-      // int arr[] = { 1, 2, 3, 4, 5 };
+            // int arr[] = { 1, 2, 3, 4, 5 };
             // int ar[] = new int[5];
             // arr[0] = 2;
             // arr[1] = 4;
@@ -16,7 +17,7 @@ public class Array {
             // arr[3] = 1;
             // arr[4] = 3;
             System.out.println("Enter the array elements: ");
-            for(i=0; i<n; i++) {
+            for (i = 0; i < n; i++) {
                 arr[i] = s.nextInt();
             }
             s.close();
